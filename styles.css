@@ -1,0 +1,16 @@
+body {
+    background: #101010;
+}
+th, td {
+    min-width: 50px;
+}
+.table-dark th.sticky-column,
+.table-dark td.sticky-column {
+    position: sticky;
+    background-color: #000000;
+    z-index: 1;
+}
+
+label {
+    color: #fff;
+}
